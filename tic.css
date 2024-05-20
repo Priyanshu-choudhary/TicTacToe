@@ -1,0 +1,28 @@
+.layout {
+    width: 400px;
+    height: 400px;
+  
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    border: 5px solid black;
+    margin: 10px 10px 10px 400px;
+  }
+  div {
+    background-color: rgb(223, 232, 236);
+  }
+  #myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(168, 244, 146);
+  
+  }
+  #h {
+  
+    text-align: center;
+    background-color: rgb(221, 55, 152);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
